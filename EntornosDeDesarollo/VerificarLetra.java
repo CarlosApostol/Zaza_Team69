@@ -4,6 +4,6 @@ public class VerificarLetra {
             letrasAdivinadas.append(letra);
             return letra;
         }
-        return palabra;
+        return palabras;
     }
 }
