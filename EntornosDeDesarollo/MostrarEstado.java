@@ -8,6 +8,7 @@ public class MostrarEstado {
                 estado.append("_ ");
             }
         }
+
         System.out.println("Estado actual: " + estado.toString());
     }
 }
