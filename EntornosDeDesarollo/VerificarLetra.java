@@ -1,9 +1,9 @@
 public class VerificarLetra {
     public static boolean verificarLetra(String palabras, char letra, StringBuilder letrasAdivinadas) {
         if (palabras.indexOf(letra) >= 0) {
-            letrasAdivinadas.append(letra) ;
-            return letra;
+            letrasAdivinadas.append(letra);
+            return true;
         }
-        return palabras;
+        return false;
     }
 }
