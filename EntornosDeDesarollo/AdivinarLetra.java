@@ -7,14 +7,14 @@ public class AdivinarLetra {
         char letra;
         while (true) {
             System.out.print("Introduce una letra: ");
-            letra = XXX.next().toLowerCase().charAt(0);
+            letra = scanner.next().toLowerCase().charAt(0); // Usamos `scanner` para leer la entrada
 
-            if (letrasUsadas.indexOf(XXX) >= 0) {
+            if (letrasUsadas.indexOf(letra) >= 0) { // Comprobamos si la letra ya ha sido usada
                 System.out.println("Ya has usado esa letra. Intenta otra.");
             } else {
-                XXX;
+                break; // Salimos del bucle si la letra no se ha usado
             }
         }
-        return XXX;
+        return letra; // Devolvemos la letra que el usuario ha introducido
     }
 }
