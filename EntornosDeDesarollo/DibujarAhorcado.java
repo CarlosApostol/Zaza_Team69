@@ -1,6 +1,6 @@
 public class DibujarAhorcado {
     public static void dibujar(int intentos) {
-        switch (XXX) {
+        switch (intentos) {
             case 6:
                 System.out.println("""
                     _______
