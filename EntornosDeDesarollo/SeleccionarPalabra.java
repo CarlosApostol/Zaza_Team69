@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class SeleccionarPalabra {
+public class SeleccionarPalabra{
     private static final String[] PALABRAS = {"java", "programacion", "ahorcado", "funcion", "juego"};
 
     public static String seleccionarPalabra() {
