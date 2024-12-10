@@ -1,7 +1,7 @@
 public class JuegoCompletado {
-    public static boolean juegoCompletado(String XXX, String XXX) {
-        for (char letra : XXX.toCharArray()) {
-            if (XXX.indexOf(letra) == -1) {
+    public static boolean juegoCompletado(String palabra, String letrasDisponibles) {
+        for (char letra : palabra.toCharArray()) {
+            if (letrasDisponibles.indexOf(letra) == -1) {
                 return false;
             }
         }
